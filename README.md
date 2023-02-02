@@ -4,10 +4,14 @@ R and Rscript
   write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+**Ans**: The **Vehical_length** and **Ground_clearance** are provide a **non-random** amount of variance,and the other amount has P-values so that provide random amount of variance.
 
 Is the slope of the linear model considered to be zero? Why or why not?
+**Ans**: As we can see in the Image that the **P-value is 5.35e-11** which is much **smaller** than the significance level of **0.05%** which means there is sufficeint evidence to  **reject all null Hypnothesis** and that also indicates the **slope o fthe linear model is not ZERO**.
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+**Ans**: We can see that the r-squared value is **0.7149** that means 71% of mpg value will be determined by this model.So, here **predict mpg of MechaCar prototypes effectively**.
+
 ## Summary Statistics on Suspension Coils
 write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
