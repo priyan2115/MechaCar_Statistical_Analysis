@@ -27,8 +27,21 @@ In your description, address the following questions:
 
 What metric or metrics are you going to test?
 
+In this we used following matrics:
+* Safety Feature Rating:**Independent Variable**
+* Current Price(Selling):**Dependent Variable**
+* Driven Package:**Independent Variable**
+* Engine:**Independent Variable**
+* Resale Value:**Independent Variable**
+* Average Annual Cost of ownership(Maintenance):**Independent Variable**
+* MPG(Gasoline Efficiency):**Independent Variable**
+ 
 What is the null hypothesis or alternative hypothesis?
 
+* Null Hypnothysis(Ho): MechCar is priced correctly based on its performance of the key factors for its genere.
+* Alternative Hypnothysis(Ha): MechaCar is not price correctly based on performance of the key factor.
+
 What statistical test would you use to test the hypothesis? And why?
+A **multiple linear reggression** would be used to determine the factor that have th ehighest correlation with the list selling price,that combination has the best impect on price.
 
 What data is needed to run the statistical test?
