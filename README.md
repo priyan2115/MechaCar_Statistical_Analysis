@@ -41,7 +41,8 @@ summarize your interpretation and findings for the t-test results. Include scree
     * An RScript is written for three t-test that compares each manufacturing lots against mean PSI of the             population
     * There is a summary of the t-test results across all manufacturing lots and for each lot
 
-In this we perform the **One Sample t-test** for three lots
+In this we perform the **One Sample t-test** for three lots.
+
 
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
