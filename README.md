@@ -42,6 +42,12 @@ What is the null hypothesis or alternative hypothesis?
 * Alternative Hypnothysis(Ha): MechaCar is not price correctly based on performance of the key factor.
 
 What statistical test would you use to test the hypothesis? And why?
-A **multiple linear reggression** would be used to determine the factor that have th ehighest correlation with the list selling price,that combination has the best impect on price.
+
+A **multiple linear reggression** would be used to determine the factor that have the highest correlation with the list selling price,that combination has the best impect on price.
 
 What data is needed to run the statistical test?
+
+Statistical tests work by calculating a **test statistic** – a number that describes how much the relationship between variables in your test differs from the null hypothesis of no relationship.
+ * comparable models from competitors,
+ * cars that will be competing with MechaCar head-to-head.
+ * Factors that will determine the relevent selling price.
