@@ -25,13 +25,13 @@ In this SUspension Coils dataset the weight capacity of multiple suspension coil
 This Image can show us the Mean,Median and Variance of the dataset.
 * We can see the **Variance of the dataset** is **62.3 PSI** and it is within 100 PSI.
 
-![suspension_coil2](resorces/suspension_coi2.png)
+![suspension_coil2](resorces/suspension_coil2.png)
 
 * Lot1 and Lot2 show the variance of the perticular lot which is respectively **1 and 7.5 PSI** which is under the 100 PSI variance requirement.While the Lot3 variance is large **170.29** which is **greater** than 100 PSI variance requirement.
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-![image](Deliv_4.png)
+![suspension_coil2](resorces/suspension_coil2.png)
 
 * Lot1 and Lot2 show the variance of the perticular lot which is respectively **1 and 7.5 PSI** which is under the 100 PSI variance requirement.While the Lot3 variance is large **170.29** which is **greater** than 100 PSI variance requirement.
 * We can see the **Variance of the dataset** is **62.3 PSI** and it is within 100 PSI.
