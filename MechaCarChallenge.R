@@ -22,6 +22,20 @@ lot_summary<-S_coil_df_table%>% group_by(Manufacturing_Lot)%>%summarize(PSI_Mean
                                                                         PSI_Var=var(PSI),
                                                                         PSI_Std_Dev=sd(PSI),.groups = 'keep')
 
+#box plot: PSI Whole lot
+#import dataset into ggplot2
+plt1 <- ggplot(S_coil_df_table,aes(y=PSI))
+
+#add boxplot
+plt1 + geom_boxplot()
+
+#box plot: PSI each indicdiual Lot
+#import dataset into ggplot2
+plt2 <- ggplot(S_coil_df_table,aes(x=Manufacturing_Lot,y=PSI)) 
+
+#add boxplot
+plt2 + geom_boxplot()
+
 #using the t.test() function to determine if the PSI across all manufacturing lots 
 #is statistically different from the population mean of 1,500 pounds per square inch.
 t.test(S_coil_df_table$PSI,mu=1500)
