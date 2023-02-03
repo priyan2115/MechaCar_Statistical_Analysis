@@ -1,3 +1,4 @@
+#Deliverable 1
 #Use the library() function to load the dplyr package.
 library(dplyr)
 #Import and read in the MechaCar_mpg.csv file as a dataframe.
@@ -7,6 +8,7 @@ lm(mpg ~ vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD, data=
 #Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
 summary(lm(mpg ~ vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD, data=mpg_df_table))
 
+#Deliverable 2
 #import and read suspension_coil.csv
 library(tidyverse)
 S_coil_df_table<- read.csv(file='Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
@@ -36,6 +38,7 @@ plt2 <- ggplot(S_coil_df_table,aes(x=Manufacturing_Lot,y=PSI))
 #add boxplot
 plt2 + geom_boxplot()
 
+#Deliverable 3
 #using the t.test() function to determine if the PSI across all manufacturing lots 
 #is statistically different from the population mean of 1,500 pounds per square inch.
 t.test(S_coil_df_table$PSI,mu=1500)
