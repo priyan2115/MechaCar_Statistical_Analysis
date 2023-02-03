@@ -47,6 +47,8 @@ summarize your interpretation and findings for the t-test results. Include scree
     * There is a summary of the t-test results across all manufacturing lots and for each lot
 
 In this we perform the **One Sample t-test** for three lots.
+![test2](resorces/test2.png)
+![test3](resorces/test3.png)
 
 
 ## Study Design: MechaCar vs Competition
