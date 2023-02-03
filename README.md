@@ -3,7 +3,7 @@ R and Rscript
 ## Linear Regression to Predict MPG
   write a short summary using a screenshot of the output from the linear regression, and address the following questions:
  
- ![image](link)
+ ![ScreeanS1](resorces/ScreeanS1.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 **Ans**: The **Vehical_length** and **Ground_clearance** are provide a **non-random** amount of variance,and the other amount has P-values so that provide random amount of variance.
