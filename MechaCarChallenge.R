@@ -24,19 +24,7 @@ lot_summary<-S_coil_df_table%>% group_by(Manufacturing_Lot)%>%summarize(PSI_Mean
                                                                         PSI_Var=var(PSI),
                                                                         PSI_Std_Dev=sd(PSI),.groups = 'keep')
 
-#box plot: PSI Whole lot
-#import dataset into ggplot2
-plt1 <- ggplot(S_coil_df_table,aes(y=PSI))
 
-#add boxplot
-plt1 + geom_boxplot()
-
-#box plot: PSI each indicdiual Lot
-#import dataset into ggplot2
-plt2 <- ggplot(S_coil_df_table,aes(x=Manufacturing_Lot,y=PSI)) 
-
-#add boxplot
-plt2 + geom_boxplot()
 
 #Deliverable 3
 #using the t.test() function to determine if the PSI across all manufacturing lots 
@@ -51,4 +39,4 @@ lot3<-subset(S_coil_df_table,Manufacturing_Lot=="Lot3")
 
 t.test(lot1$PSI,mu=1500)
 t.test(lot2$PSI,mu=1500)
-t.test(lot2$PSI,mu=1500)
+t.test(lot3$PSI,mu=1500)
