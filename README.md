@@ -39,6 +39,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 * Using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+![test1](resorces/test1.png)
 * Next,using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
     * An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population
     * An RScript is written for three t-test that compares each manufacturing lots against mean PSI of the population 
